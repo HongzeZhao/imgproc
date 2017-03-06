@@ -19,9 +19,7 @@ FaceDetection::FaceDetection(const cv::Mat &img): Algorithm(img)
 
 void FaceDetection::work()
 {
-    auto cwd = getcwd(0, 0);
-    cout << cwd << endl;
-    
+    // need settings to copy this xml file to dst folder
     String face_cascade_name = "haarcascade_frontalface_alt.xml";
     CascadeClassifier face_cascade;
     
