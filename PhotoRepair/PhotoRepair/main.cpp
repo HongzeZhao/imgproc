@@ -12,6 +12,7 @@
 #include "Contrast.hpp"
 #include "Buffing.hpp"
 #include "FaceDetection.hpp"
+#include "MouseROI.hpp"
 
 int main(int argc, const char * argv[]) {
     auto img = cv::imread("/users/honze/downloads/hy.jpg");
@@ -19,7 +20,8 @@ int main(int argc, const char * argv[]) {
     //run<Inpaint>(img);
     //run<Contrast>(img);
     //run<Buffing>(img);
-    run<FaceDetection>(img);
+    //run<FaceDetection>(img);
+    run<MouseROI>(img);
 
     return 0;
 }

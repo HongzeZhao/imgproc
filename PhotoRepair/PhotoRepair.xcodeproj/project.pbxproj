@@ -12,6 +12,7 @@
 		3E2BD0381E6BFDF20028CAAF /* Buffing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BD0361E6BFDF20028CAAF /* Buffing.cpp */; };
 		3E2BD03B1E6C3A470028CAAF /* FaceDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BD0391E6C3A470028CAAF /* FaceDetection.cpp */; };
 		3E2BD03F1E6C5C260028CAAF /* haarcascade_frontalface_alt.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E2BD03E1E6C3EF60028CAAF /* haarcascade_frontalface_alt.xml */; };
+		3E57D1551E6D8F8800475C99 /* MouseROI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E57D1531E6D8F8800475C99 /* MouseROI.cpp */; };
 		3E86AFA71E129C9F004624FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E86AFA61E129C9F004624FE /* main.cpp */; };
 		3EAF968F1E1FF1E700DF07F0 /* libopencv_calib3d.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAF967F1E1FF1E700DF07F0 /* libopencv_calib3d.3.2.0.dylib */; };
 		3EAF96901E1FF1E700DF07F0 /* libopencv_core.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAF96801E1FF1E700DF07F0 /* libopencv_core.3.2.0.dylib */; };
@@ -55,6 +56,8 @@
 		3E2BD0391E6C3A470028CAAF /* FaceDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaceDetection.cpp; sourceTree = "<group>"; };
 		3E2BD03A1E6C3A470028CAAF /* FaceDetection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FaceDetection.hpp; sourceTree = "<group>"; };
 		3E2BD03E1E6C3EF60028CAAF /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		3E57D1531E6D8F8800475C99 /* MouseROI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MouseROI.cpp; sourceTree = "<group>"; };
+		3E57D1541E6D8F8800475C99 /* MouseROI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MouseROI.hpp; sourceTree = "<group>"; };
 		3E86AFA31E129C9F004624FE /* PhotoRepair */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PhotoRepair; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E86AFA61E129C9F004624FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3EAF967F1E1FF1E700DF07F0 /* libopencv_calib3d.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.3.2.0.dylib; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				3E2BD0371E6BFDF20028CAAF /* Buffing.hpp */,
 				3E2BD0391E6C3A470028CAAF /* FaceDetection.cpp */,
 				3E2BD03A1E6C3A470028CAAF /* FaceDetection.hpp */,
+				3E57D1531E6D8F8800475C99 /* MouseROI.cpp */,
+				3E57D1541E6D8F8800475C99 /* MouseROI.hpp */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				3E2BD0381E6BFDF20028CAAF /* Buffing.cpp in Sources */,
 				3E2BD0351E6B0B0F0028CAAF /* Contrast.cpp in Sources */,
 				3E2BD03B1E6C3A470028CAAF /* FaceDetection.cpp in Sources */,
+				3E57D1551E6D8F8800475C99 /* MouseROI.cpp in Sources */,
 				3E2BD02F1E6861B90028CAAF /* InPaint.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
